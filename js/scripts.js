@@ -90,10 +90,10 @@ jQuery(document).ready(function($) {
     });
 
     // iCheck
-    $('.iCheckInput').iCheck({
-        checkboxClass: 'iCheck',
-        radioClass: 'iRadio',
-    });
+    // $('.iCheckInput').iCheck({
+    //     checkboxClass: 'iCheck',
+    //     radioClass: 'iRadio',
+    // });
     // 判断选中状态
     // $("#submit").click(function() {
     //
@@ -108,9 +108,5 @@ jQuery(document).ready(function($) {
     //     });
     //
     // });
-
-    $(".selection .group").click(function() {
-        $(this).addClass("active").siblings().removeClass("active");
-    });
 
 });
